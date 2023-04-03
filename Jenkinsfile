@@ -2,24 +2,21 @@ pipeline {
     agent any
 
     stages {
-        stage('sap1') {
+        stage('Hello') {
             steps {
                 echo 'Hello World'
             }
         }
-      stage('sap2') {
+stage('HHH') {
             steps {
                 echo 'Hello World'
             }
         }
-      stage('sap3') {
+stage('HGGGG') {
             steps {
                 echo 'Hello World'
             }
-        }
-      stage('sap4') {
-            steps {
-                echo 'Hello World'
-            }
-        }
+        }        
     }
+}
+
